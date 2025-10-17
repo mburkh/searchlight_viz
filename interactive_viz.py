@@ -54,7 +54,7 @@ fig.add_trace(go.Bar(
 fig.add_annotation(
     text="Data: Tavern Research, 2025",
     xref="paper", yref="paper",
-    x=0, y=-0.15,
+    x=-0.025, y=-0.15,
     showarrow=False,
     font=dict(size=10, color="gray"),
     align="left"
