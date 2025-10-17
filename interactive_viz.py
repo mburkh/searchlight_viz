@@ -7,7 +7,7 @@ xtab = {
     'Trump': [37, 24, 16, 23],
     'Harris': [23, 35, 17, 25]
 }
-index = ['Increase housing costs', 'Decrease housing costs', 'Have no impact on housing cost', 'Not sure']
+index = ['Increase housing costs', 'Decrease housing costs', 'Have no impact on housing costs', 'Not sure']
 df = pd.DataFrame(xtab, index=index)
 
 # === Streamlit UI ===
